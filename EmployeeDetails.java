@@ -20,6 +20,7 @@ public class EmployeeDetails{
         String name = "Ishaan";
         int id = 1;
         int salary = 25000;
+        
         Employee employee = new Employee(name,id,salary);
         employee.displayDetails();
     }
